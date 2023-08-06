@@ -1,0 +1,20 @@
+<div class="titleContainer">
+  <h2>Albums for: {{this.albumsSearchResult.0.artists.0.name}}</h2>
+  </div>
+   <div class="Container">
+  {{#each this.albumsSearchResult}}
+    <div class="Card">
+      <img
+        src="{{this.images.0.url}}"
+        alt="image of {{this.name}}"
+        width="300"
+        cover
+      />
+      <div class="Info">
+      <h3>{{this.name}}</h3>
+      <a href="/view-tracks/{{this.id}}">View Tracks</a>
+      </div>
+    </div>
+  {{/each}}
+  </div>
+  </div>

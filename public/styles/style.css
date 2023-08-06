@@ -1,0 +1,116 @@
+a {
+  text-decoration: none;
+}
+
+.homeContainer img {
+  position: relative;
+  width: 98vw;
+}
+
+.searchForm input {
+  height: 20px;
+  width: 300px;
+}
+
+.searchForm input {
+  height: 25px;
+  width: 300px;
+  text-align: center;
+}
+
+.searchForm form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  height: 200px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.473);
+  gap: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.searchForm button {
+  height: 30px;
+  width: 150px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(223, 103, 103);
+  border-style: none;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.Card {
+  background-color: rgb(87, 87, 87);
+}
+
+.Card img {
+  object-fit: cover;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Info h2,
+h3 {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  height: 30px;
+  width: 120px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(223, 103, 103);
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upperHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  background-color: rgb(87, 87, 87);
+}
+
+.upperHeader h2 {
+  color: rgb(246, 246, 246);
+}
+
+.songList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 310;
+  padding: 0 10px;
+  background-color: rgb(240, 240, 240);
+}
